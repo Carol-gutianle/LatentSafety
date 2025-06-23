@@ -1,0 +1,11 @@
+datasets==3.2.0
+jsonlines==4.0.0
+matplotlib==3.10.3
+numpy==2.3.0
+pandas==1.5.3
+rich==14.0.0
+seaborn==0.13.2
+torch==2.6.0
+tqdm==4.67.1
+transformers==4.52.4
+trl==0.17.0
