@@ -3,7 +3,7 @@
 
 This is the official implementation of the paper "Probing the robustness of Large Language Models Safety to Latent Perturbations".
 
-![](./assets/overview_0618(1).pdf
+![](./assets/overview.png)
 
 ## Install the Environment
 
