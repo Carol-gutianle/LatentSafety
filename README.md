@@ -10,13 +10,12 @@ This is the official implementation of the paper "Probing the robustness of Larg
 To set up the environment, run the following commands:
 
 ```bash
-git clone https://github.com/Carol-gutianle/LatentSafety.git
+git clone {Url to Repo}
 cd LatentSafety
 pip install -r requirements.txt
 ```
 This will install all necessary dependencies listed in the `requirements.txt`.
 
-You can find the third party package `llm_safecheck` from `https://github.com/Carol-gutianle/LLM-SafeCheck/tree/main`.
 
 ## ASA Attack
 
@@ -68,7 +67,6 @@ The results will be saved to `summary.json`, here is an example:
 
 ## ASABench
 
-We provide ASABench on [HuggingFace](https://huggingface.co/datasets/Carol0110/ASABench), allowing you to evaluate your model with a single command and obtain the LASR scores for each layer.
 
 ```bash
 python -m exp.asa \\
@@ -83,8 +81,6 @@ python -m exp.asa \\
 ```bash
 python -m train
 ```
-
-
 
 ## Key Library Introduction
 
@@ -106,15 +102,3 @@ python -m sv.loss
 python -m exp.landscape
 ```
 
-## Cite Us
-```bash
-@misc{gu2025probingrobustnesslargelanguage,
-      title={Probing the Robustness of Large Language Models Safety to Latent Perturbations}, 
-      author={Tianle Gu and Kexin Huang and Zongqi Wang and Yixu Wang and Jie Li and Yuanqi Yao and Yang Yao and Yujiu Yang and Yan Teng and Yingchun Wang},
-      year={2025},
-      eprint={2506.16078},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2506.16078}, 
-}
-```
