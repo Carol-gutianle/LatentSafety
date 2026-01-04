@@ -1,9 +1,8 @@
 # LatentSafety
 
 
-This is the official implementation of the paper "Probing the robustness of Large Language Models Safety to Latent Perturbations".
+This is the official implementation of the paper "Probing the Safety Robustness of LLMs in Latent Space".
 
-![](./assets/overview.png)
 
 ## Install the Environment
 
