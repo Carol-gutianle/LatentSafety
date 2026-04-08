@@ -3,7 +3,6 @@
 This repository contains the official implementation of the paper  
 **"Probing the Safety Robustness of LLMs in Latent Space"**.
 
----
 
 ## Installation
 
@@ -13,7 +12,6 @@ cd LatentSafety
 pip install -r requirements.txt
 ```
 
----
 
 ## ASA Attack
 
@@ -36,7 +34,6 @@ Output file format:
 - `--jailbreak gasa`: enables gradient-based variant (ASA_grad)
 - `--jailbreak trojan`: uses activation difference-based perturbations
 
----
 
 ## Annotation
 
@@ -65,8 +62,6 @@ Example output (`summary.json`):
 }
 ```
 
----
-
 ## ASABench
 
 We release **ASABench**, a benchmark for evaluating safety robustness under latent-space perturbations.
@@ -88,7 +83,6 @@ The dataset is organized by model (as subsets), enabling comparison across archi
 
 ASABench complements behavior-level safety benchmarks by providing a latent-space evaluation protocol.
 
----
 
 ## Generating ASABench
 
@@ -100,15 +94,11 @@ python -m exp.asa \
     --mode lapt
 ```
 
----
-
 ## Layer-wise Adversarial Patch Training (LAPT)
 
 ```bash
 python -m train
 ```
-
----
 
 ## Visualization Tools
 
